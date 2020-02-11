@@ -3,7 +3,7 @@
 ## Usage
 
 1. Import `src/colors.scss` in your scss/sass files to use the sass variables
-   1. Alternatively import `colors-and|$properties.scss` to add css custom properties to your output
+   1. Alternatively import `colors-and-properties.scss` to add css custom properties to your output
 2. Import `dist/colors.css` in your css files to use the css custom properties
 
 ## Color Names
