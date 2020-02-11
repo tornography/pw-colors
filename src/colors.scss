@@ -1,0 +1,167 @@
+// base colors
+
+$cerulean: hsl(195, 100%, 41%);
+$astronaut: hsl(197, 100%, 18%);
+$aqua: hsl(189, 100%, 50%);
+$pewter: hsl(180, 5%, 61%);
+$cardinal: hsl(350, 72%, 49%);
+$chateaugreen: hsl(129, 51%, 46%);
+$pumpkin: hsl(26, 100%, 54%);
+$ripelemon: hsl(52, 88%, 51%);
+
+// shades
+
+$cerulean-100: darken($cerulean, 30);
+$cerulean-200: darken($cerulean, 20);
+$cerulean-300: darken($cerulean, 10);
+$cerulean-400: $cerulean;
+$cerulean-500: lighten($cerulean, 10);
+$cerulean-600: lighten($cerulean, 20);
+$cerulean-700: lighten($cerulean, 30);
+$cerulean-800: lighten($cerulean, 40);
+$cerulean-900: lighten($cerulean, 50);
+
+$astronaut-100: darken($astronaut, 10);
+$astronaut-200: $astronaut;
+$astronaut-300: lighten($astronaut, 10);
+$astronaut-400: lighten($astronaut, 20);
+$astronaut-500: lighten($astronaut, 30);
+$astronaut-600: lighten($astronaut, 40);
+$astronaut-700: lighten($astronaut, 50);
+$astronaut-800: lighten($astronaut, 60);
+$astronaut-900: lighten($astronaut, 70);
+
+$aqua-100: darken($aqua, 40);
+$aqua-200: darken($aqua, 30);
+$aqua-300: darken($aqua, 20);
+$aqua-400: darken($aqua, 10);
+$aqua-500: $aqua;
+$aqua-600: lighten($aqua, 10);
+$aqua-700: lighten($aqua, 20);
+$aqua-800: lighten($aqua, 30);
+$aqua-900: lighten($aqua, 40);
+
+$pewter-100: darken($pewter, 50);
+$pewter-200: darken($pewter, 40);
+$pewter-300: darken($pewter, 30);
+$pewter-400: darken($pewter, 20);
+$pewter-500: darken($pewter, 10);
+$pewter-600: $pewter;
+$pewter-700: lighten($pewter, 10);
+$pewter-800: lighten($pewter, 20);
+$pewter-900: lighten($pewter, 30);
+
+$cardinal-100: darken($cardinal, 40);
+$cardinal-200: darken($cardinal, 30);
+$cardinal-300: darken($cardinal, 20);
+$cardinal-400: darken($cardinal, 10);
+$cardinal-500: $cardinal;
+$cardinal-600: lighten($cardinal, 10);
+$cardinal-700: lighten($cardinal, 20);
+$cardinal-800: lighten($cardinal, 30);
+$cardinal-900: lighten($cardinal, 40);
+
+$chateaugreen-100: darken($chateaugreen, 40);
+$chateaugreen-200: darken($chateaugreen, 30);
+$chateaugreen-300: darken($chateaugreen, 20);
+$chateaugreen-400: darken($chateaugreen, 10);
+$chateaugreen-500: $chateaugreen;
+$chateaugreen-600: lighten($chateaugreen, 10);
+$chateaugreen-700: lighten($chateaugreen, 20);
+$chateaugreen-800: lighten($chateaugreen, 30);
+$chateaugreen-900: lighten($chateaugreen, 40);
+
+$pumpkin-100: darken($pumpkin, 40);
+$pumpkin-200: darken($pumpkin, 30);
+$pumpkin-300: darken($pumpkin, 20);
+$pumpkin-400: darken($pumpkin, 10);
+$pumpkin-500: $pumpkin;
+$pumpkin-600: lighten($pumpkin, 10);
+$pumpkin-700: lighten($pumpkin, 20);
+$pumpkin-800: lighten($pumpkin, 30);
+$pumpkin-900: lighten($pumpkin, 40);
+
+$ripelemon-100: darken($ripelemon, 40);
+$ripelemon-200: darken($ripelemon, 30);
+$ripelemon-300: darken($ripelemon, 20);
+$ripelemon-400: darken($ripelemon, 10);
+$ripelemon-500: $ripelemon;
+$ripelemon-600: lighten($ripelemon, 10);
+$ripelemon-700: lighten($ripelemon, 20);
+$ripelemon-800: lighten($ripelemon, 30);
+$ripelemon-900: lighten($ripelemon, 40);
+
+$color-map: (
+    cerulean-100: $cerulean-100,
+    cerulean-200: $cerulean-200,
+    cerulean-300: $cerulean-300,
+    cerulean-400: $cerulean-400,
+    cerulean-500: $cerulean-500,
+    cerulean-600: $cerulean-600,
+    cerulean-700: $cerulean-700,
+    cerulean-800: $cerulean-800,
+    cerulean-900: $cerulean-900,
+    astronaut-100: $astronaut-100,
+    astronaut-200: $astronaut-200,
+    astronaut-300: $astronaut-300,
+    astronaut-400: $astronaut-400,
+    astronaut-500: $astronaut-500,
+    astronaut-600: $astronaut-600,
+    astronaut-700: $astronaut-700,
+    astronaut-800: $astronaut-800,
+    astronaut-900: $astronaut-900,
+    aqua-100: $aqua-100,
+    aqua-200: $aqua-200,
+    aqua-300: $aqua-300,
+    aqua-400: $aqua-400,
+    aqua-500: $aqua-500,
+    aqua-600: $aqua-600,
+    aqua-700: $aqua-700,
+    aqua-800: $aqua-800,
+    aqua-900: $aqua-900,
+    pewter-100: $pewter-100,
+    pewter-200: $pewter-200,
+    pewter-300: $pewter-300,
+    pewter-400: $pewter-400,
+    pewter-500: $pewter-500,
+    pewter-600: $pewter-600,
+    pewter-700: $pewter-700,
+    pewter-800: $pewter-800,
+    pewter-900: $pewter-900,
+    cardinal-100: $cardinal-100,
+    cardinal-200: $cardinal-200,
+    cardinal-300: $cardinal-300,
+    cardinal-400: $cardinal-400,
+    cardinal-500: $cardinal-500,
+    cardinal-600: $cardinal-600,
+    cardinal-700: $cardinal-700,
+    cardinal-800: $cardinal-800,
+    cardinal-900: $cardinal-900,
+    chateaugreen-100: $chateaugreen-100,
+    chateaugreen-200: $chateaugreen-200,
+    chateaugreen-300: $chateaugreen-300,
+    chateaugreen-400: $chateaugreen-400,
+    chateaugreen-500: $chateaugreen-500,
+    chateaugreen-600: $chateaugreen-600,
+    chateaugreen-700: $chateaugreen-700,
+    chateaugreen-800: $chateaugreen-800,
+    chateaugreen-900: $chateaugreen-900,
+    pumpkin-100: $pumpkin-100,
+    pumpkin-200: $pumpkin-200,
+    pumpkin-300: $pumpkin-300,
+    pumpkin-400: $pumpkin-400,
+    pumpkin-500: $pumpkin-500,
+    pumpkin-600: $pumpkin-600,
+    pumpkin-700: $pumpkin-700,
+    pumpkin-800: $pumpkin-800,
+    pumpkin-900: $pumpkin-900,
+    ripelemon-100: $ripelemon-100,
+    ripelemon-200: $ripelemon-200,
+    ripelemon-300: $ripelemon-300,
+    ripelemon-400: $ripelemon-400,
+    ripelemon-500: $ripelemon-500,
+    ripelemon-600: $ripelemon-600,
+    ripelemon-700: $ripelemon-700,
+    ripelemon-800: $ripelemon-800,
+    ripelemon-900: $ripelemon-900
+)

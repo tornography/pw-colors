@@ -1,0 +1,13 @@
+@import "function-hsl-str";
+
+// loop over theme colors and create css custom properties
+:root {
+    @each $key, $value in $color-map {
+        @if (type-of($value) == color) {
+            --#{$key}: #{hsl-str($value)};
+        }
+        @else {
+            --#{$key}: #{$value};
+        }
+    }
+}

@@ -1,0 +1,3 @@
+@function hsl-str($color) {
+    @return unquote("hsl(#{hue($color)/1deg}, #{saturation($color)}, #{lightness($color)})");
+}
