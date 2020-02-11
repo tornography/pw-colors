@@ -10,6 +10,8 @@
 
 ### Base Colors
 
+These color variables are for reference only, htey are not meant to be used. Please refer to the base versions in the [shades section](#Shades) below.
+
 |Name|Value|
 |---|---|
 |$cerulean | hsl(195, 100%, 41%)|
